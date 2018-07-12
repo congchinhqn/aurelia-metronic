@@ -1,0 +1,26 @@
+{
+    "name": "EasyWeb AdminCP",
+    "version": 1.0,
+    "api": {
+        "key": "12380198230918jlfkjsdfs",
+        "endpoint": "http://api.easywebhub.com"
+    },
+    "development": {
+        "api": {
+            "key": "developmentonlykey938109283091",
+            "endpoint": "http://localhost/api/v1"
+        }
+    },
+    "stagging": {
+        "api": {
+            "key": "staggingkey938109283091",
+            "endpoint": "http://localhost/api/v1"
+        }
+    },
+    "production": {
+        "api": {
+            "key": "productionkey938109283091",
+            "endpoint": "http://localhost/api/v1"
+        }
+    }
+}
